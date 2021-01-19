@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #2d3436;
+}
+
+.wrapper{
+    background-color: #636e72;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wrapper .item{
+    background-color: #2d3436;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 12px; 
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.wrapper .item .text{
+    font-size: 20px;
+    font-weight: 400;
+
+}
